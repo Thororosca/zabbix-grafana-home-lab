@@ -1,4 +1,5 @@
 Pasta destinada ao armazenamento de imagens e evidências visuais do projeto.
 
 
--- Placa_modo_bridge.png: Configuração da interface de rede da máquina virtual em modo Bridge.** Observa-se que a interface de rede da máquina virtual está configurada no modo *Bridge*, permitindo que o servidor obtenha um endereço IP diretamente da mesma rede física do host. Essa configuração é necessária para garantir a comunicação adequada com outros dispositivos da rede, bem como o acesso externo aos serviços do Zabbix e do Grafana
+-- Placa_modo_bridge.png: Configuração da interface de rede da máquina virtual em modo Bridge.** Observa-se que a interface de rede da máquina virtual está configurada no modo *Bridge*, permitindo que o servidor obtenha um endereço IP diretamente
+da mesma rede física do host. Essa configuração é necessária para garantir a comunicação adequada com outros dispositivos da rede, bem como o acesso externo aos serviços do Zabbix e do Grafana
