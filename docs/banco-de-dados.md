@@ -41,3 +41,14 @@ mariadb --version
 ---
 
 ## A verificação do serviço do MariaDB confirmou a instalação da versão **10.11.14**, conforme identificado no retorno do comando `mariadb --version`.
+
+---
+
+## Criação da DATABASE ZABBIX
+
+Seguindo a recomendação que pode ser encontrada na documentação do Zabbix 
+
+primeiro utilizamos o comando para acessar o banco de dados
+
+```bash
+sudo mariadb
