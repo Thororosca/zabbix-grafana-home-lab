@@ -35,4 +35,13 @@ sudo apt install mariadb-server -y
 Após a instalação, o serviço do banco de dados foi validado através do systemd:
 
 ```bash
-systemctl status mariadb
+mariadb --version
+```
+
+
+---
+
+## 🔹 Versão mais curta (se quiser ser direto)
+
+```markdown
+A verificação do serviço do MariaDB confirmou a instalação da versão **10.11.14**, conforme identificado no retorno do comando `mariadb --version`.
