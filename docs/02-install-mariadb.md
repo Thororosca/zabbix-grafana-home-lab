@@ -52,5 +52,65 @@ primeiro utilizamos o comando para acessar o banco de dados
 
 ```bash
 sudo mariadb
+```
+A criação foi realizada utilizando as configurações recomendadas oficialmente pelo Zabbix para garantir compatibilidade e integridade dos dados.
 
+```bash
+CREATE DATABASE zabbix
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_bin;
+```
 
+CREATE DATABASE zabbix
+
+Cria um banco de dados chamado zabbix, que será utilizado exclusivamente pelo servidor de monitoramento.
+
+A separação do banco de dados garante:
+
+Organização dos dados
+
+Isolamento lógico
+
+Melhor controle de permissões
+
+Facilidade de backup e manutenção
+
+CHARACTER SET utf8mb4
+
+Define o conjunto de caracteres como utf8mb4.
+
+O utf8mb4 é uma implementação completa do padrão UTF-8 e permite o armazenamento de:
+
+Caracteres especiais
+
+Acentuação
+
+Símbolos
+
+Emojis
+
+Caracteres internacionais
+
+Isso evita problemas de codificação e incompatibilidade em ambientes que utilizam múltiplos idiomas ou caracteres especiais.
+
+COLLATE utf8mb4_bin
+
+Define a regra de comparação de caracteres (collation).
+
+A opção utf8mb4_bin realiza comparação binária, ou seja:
+
+Sensível a maiúsculas e minúsculas
+
+Comparação exata de caracteres
+
+Maior precisão na diferenciação de strings
+
+Essa configuração é recomendada pelo Zabbix para evitar inconsistências em:
+
+Nomes de hosts
+
+Identificadores de itens
+
+Triggers
+
+Chaves de monitoramento
