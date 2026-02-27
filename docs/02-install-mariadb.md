@@ -53,5 +53,6 @@ primeiro utilizamos o comando para acessar o banco de dados
 ```bash
 sudo mariadb
 
+````
 <img width="1308" height="821" alt="atualização_ubunto" src="https://github.com/user-attachments/assets/100aa5da-7802-4dea-84fa-72244bddd66b" />
 
